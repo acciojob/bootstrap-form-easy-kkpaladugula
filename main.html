@@ -13,27 +13,27 @@
   <h3>Internship Form</h3>
 			<form action="/action_page.php" class="was-validated">
 					<div class="row mb-3 mt-3">
-						<div class="col" id="first-name-input.col" required>
+						<div class="col">
 							<label for="first-name-input">First Name</label>
-							<input type="text" class="form-control" required>
+							<input id="first-name-input" type="text" class="form-control" required>
 						</div>
-						<div class="col" id="last-name-input">
+						<div class="col">
 							<label for="last-name-input">Last Name</label>
-							<input type="text" class="form-control" required>
+							<input type="text" class="form-control" id="last-name-input" required>
 						</div>
-						<div class="col" id="email-input">
+						<div class="col" >
 							<label for="email-input">Email Address</label>
-							<input type="email" class="form-control" placeholder="xyz@abc.com" required>
+							<input type="email" id="email-input" class="form-control" placeholder="xyz@abc.com" required>
 						</div>
 					</div>
 				<div class="row mb-3 mt-3">
-					<div class="col-6" id="college-input">
+					<div class="col-6" >
 						<label for="college-input" class="form-label">Collage</label>
-						<input type="text" class="form-control" required>
+						<input type="text" id="college-input" class="form-control" required>
 					</div>
 					<div class="col-3">Graduation Year
-						<!-- <input type="text" class="form-control" required> -->
-						<select class="form-select" id="form-select" required>
+						<label for="form-label" class="form-label"></label>
+						<select required>
 							<option>select</option>
 							<option>2020</option>
 							<option>2021</option>
@@ -41,9 +41,9 @@
 							<option>2023</option>
 						  </select>
 						</div>
-							<div class="col-3" id="roll-no-input">
+							<div class="col-3" >
 								<label for="roll-no-input">Roll No.</label>
-								<input type="text" class="form-control" required>
+								<input type="text" id="roll-no-input" class="form-control" required>
 							</div>
 						</div>
 							<div class="mb-3 form-check" required>
